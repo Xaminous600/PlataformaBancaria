@@ -6,8 +6,8 @@ Tabla de contenidos
 =================
 
    * [Aplicación Bancaria Full Stack](#Aplicación-Bancaria-Full-Stack)
-     * [Tecnologías empleadas](##Tecnologías-empleadas)
-     * [Arquitectura de microservicios](##Arquitectura-de-microservicios)
+     * [Tecnologías empleadas](#Tecnologías-empleadas)
+     * [Arquitectura de microservicios](#Arquitectura-de-microservicios)
 	 * [Back End](#Back-End)
 	   * [Autenticación ](#gh-md-toc)
 	    * [JWT (JSON Web Tokens)](#gh-md-toc)
