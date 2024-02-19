@@ -20,7 +20,7 @@ Tabla de contenidos
 	 
 
 # Aplicación Bancaria Full Stack
-¡Bienvenidos! He desarrollado una aplicación web con una arquitectura de microservicios y autenticación JWT, que recrea principalmente la gestión y realización de transferencias bancarias. A continuación, a lo largo de todo el README comentaré todos los aspectos que he implementado y la estructura de la misma. Podéis encontrar el código relacionado tanto al Front como al Back en las distintas ramas que componen el repositorio 😁😁😁
+¡Bienvenidos! He desarrollado una aplicación web con una arquitectura de microservicios y autenticación JWT, que recrea principalmente la gestión y realización de transferencias bancarias. A continuación, a lo largo de todo el README comentaré todos los aspectos que he implementado y la estructura de la misma. Podéis encontrar el código relacionado tanto del Front como al Back en las distintas ramas que componen el repositorio 😁😁😁
 ## Tecnologías empleadas
 Esta aplicación se ha realizado con las siguientes tecnologías:
 * **Front-End:**  React, Next.js, HTML, JavaScript y Css.
