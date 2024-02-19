@@ -8,7 +8,7 @@ Tabla de contenidos
    * [Aplicación Bancaria Full Stack](#Aplicación-Bancaria-Full-Stack)
      * [Tecnologías empleadas](##Tecnologías-empleadas)
      * [Arquitectura de microservicios](##Arquitectura-de-microservicios)
-	 * [Back End](https://github.com/Xaminous600/PlataformaBancaria/new/main?filename=README.md##back-end)
+	 * [Back End](#Back-End)
 	   * [Autenticación ](#gh-md-toc)
 	    * [JWT (JSON Web Tokens)](#gh-md-toc)
 		* [Workflow](#gh-md-toc)
@@ -35,7 +35,7 @@ LLegado a estas circustancias, la principal duda que nos puede llegar es: **¿C�
 La respuestas es bastante sencilla y es a través de servicios web. Es por esta razón que la aplicación desarrollada emplea una arquitectura orientada a **microservicios**. Dichos servicios están integrados con el uso de la **arquitectura REST**.
 
 ![MicroServicios](https://github.com/Xaminous600/PlataformaBancaria/assets/98296039/fa079933-93c8-4d12-93ce-36390c85f4d7)
-## [Back End](##back-end)
+## Back End
 La funcionalidad del Back End se ha llevado a cabo con el uso de  **Java**, uno de los lenguajes de programación más populares y versátiles en la industria del desarrollo de software. Java ofrece una amplia gama de herramientas y frameworks que facilitan la creación de sistemas robustos y escalables, lo que lo convierte en una elección común para la implementación del lado del servidor en aplicaciones web y empresariales.
 
 Para potenciar la eficiencia y la seguridad del sistema se ha empleado **JPA (Java Persistence API)** el cual proporciona una capa de abstracción sobre el acceso a la base de datos, simplificando las operaciones de persistencia de datos. 
