@@ -1,0 +1,157 @@
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/backgroundHome.jpg');
+}
+
+.contenedor{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    height: 700px;
+}
+
+.seccionSuperiorMovil{
+    display: none;
+}
+
+.seccionIzquierda{
+    width: 'auto';
+    height: 100%;
+    background-color: #F2F6FF;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.seccionIzquierda > div{
+    background: linear-gradient(#649FF4, #466EF5);
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.seccionIzquierda > div > h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.seccionDerecha{
+    width: 50%;
+    background-color: #649FF4;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.seccionDerecha > div{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #F2F6FF;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    border-radius: 30px;
+    width: 50%;
+    background-color: #E3E3E3;
+    box-shadow: 0px 0px 41px -8px rgba(0,0,0,0.59);
+}
+
+.cabecera{
+    display: flex;
+    gap:20px;
+    font-size: 16px;
+    padding: 20px 30px 20px 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.cabecera > button{
+    color: #649FF4;
+}
+
+@media (max-width: 1250px) {
+    .formulario{
+        width: 90%;
+    }
+    .contenedor{
+        width: 90%;
+    }
+}
+
+@media (max-width: 900px){
+    .contenedor{
+        width: 95%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccionDerecha{
+        width: 100%;
+        background-color: transparent;
+        z-index: 3;
+        align-self: center;
+    }
+    .seccionDerecha > div{
+        background-color: transparent;
+    }
+    .seccionIzquierda{
+        display: none;
+    }
+    .seccionSuperiorMovil{
+        display: flex;
+        background: linear-gradient(#649FF4, #466EF5);
+        position: absolute;
+        top:0;
+        width: 100%;
+        height: 200px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .seccionSuperiorMovil > div {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px 0px 20px;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+
+    .seccionSuperiorMovil > div > h1{
+        color:white;
+        letter-spacing: 1px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .seccionSuperiorMovil > div > h2{
+        letter-spacing: 1px;
+        color:white;
+        font-size: 14px;
+    }
+    .main{
+        background-image: url('/mobileBackground.jpg');
+        height: 100%;
+    }
+
+}

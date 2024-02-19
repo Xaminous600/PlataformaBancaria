@@ -1,0 +1,67 @@
+.cuerpoRegistro{
+    padding: 30px 30px 30px 30px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuerpoRegistro > form{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.cuerpoRegistro > form > div:nth-child(1){
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.cuerpoRegistro > form  div > input{
+    border-bottom: 1px solid #000;
+    width: 100%;
+    outline: none;
+}
+
+.cuerpoRegistro > form  div > p {
+    margin-bottom: 10px;
+    color: #4972F5;
+}
+
+.cuerpoRegistro > form > button{
+    background-color: #4B71FF;
+    color:white;
+    padding: 10px 0px 10px 0px;
+}
+
+.cuerpoRegistro > form > div:nth-child(2) > div:first-child{
+    margin-bottom: 30px;
+}
+
+.cuerpoRegistro > form > div:nth-child(3) > div:first-child{
+    margin-bottom: 30px;
+}
+
+@media (max-width: 900px){
+    .cuerpoRegistro > form > div:nth-child(3){
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        align-items: center;
+    }
+    .cuerpoRegistro > form > div:nth-child(2){
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .cuerpoRegistro > form > div:nth-child(2) > div:first-child{
+        margin-bottom: 0px;
+    }
+    
+    .cuerpoRegistro > form > div:nth-child(3) > div:first-child{
+        margin-bottom: 0px;
+    }
+}
