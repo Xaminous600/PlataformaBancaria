@@ -9,14 +9,14 @@ Tabla de contenidos
      * [Tecnologías empleadas](#Tecnologías-empleadas)
      * [Arquitectura de microservicios](#Arquitectura-de-microservicios)
 	 * [Back End](#Back-End)
-	   * [Autenticación ](#gh-md-toc)
-	    * [JWT (JSON Web Tokens)](#gh-md-toc)
-		* [Workflow](#gh-md-toc)
-			* [Ejemplo con POSTMAN](#gh-md-toc)
-	  * [Implementación](#gh-md-toc)
-	 * [Front End](#gh-md-toc)
-	    * [Componentes y Custom Hooks](#gh-md-toc)
-		* [Implementación](#gh-md-toc)
+	   * [Autenticación](#Autenticación)
+	    * [JWT (JSON Web Tokens)](#JWT-(JSON-Web-Tokens))
+		* [Workflow](#Workflow)
+			* [Ejemplo con POSTMAN](#Ejemplo-con-POSTMAN)
+	  * [Implementación](#Implementación)
+	 * [Front End](#Front-End)
+	    * [Componentes y Custom Hooks](#Componentes-y-Custom-Hooks)
+		* [Implementación](#Implementación)
 	 
 
 # Aplicación Bancaria Full Stack
